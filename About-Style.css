@@ -1,0 +1,289 @@
+*{
+	margin: 0;
+	padding: 0;
+  }
+  
+  @font-face {
+	font-family: RevxNeue;
+	src: url(fonts/RevxNeueBold.ttf);
+	font-style: normal;
+	font-weight: 100;
+  }
+
+  @font-face {
+	font-family: RevxNeue;
+	src: url(fonts/RevxNeueRegular.ttf);
+	font-style: normal;
+	font-weight: 200;
+  }
+  
+  .main ul li{
+	font-family: RevxNeue;
+	font-weight: 100;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+  }
+  
+  @font-face {
+	font-family: SouthEpic;
+	src: url(fonts/SouthEpic-Script.otf);
+	font-style: normal;
+	font-weight: 100;
+  }
+  
+  p{
+	font-family: SouthEpic;
+	font-weight: 100;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+  }
+
+  .container p{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+  }
+
+  .Location p{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 10px;
+  }
+
+  .Interests p{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 15px;
+  }
+  
+  @font-face {
+	font-family: SouthEpic;
+	src: url(fonts/SouthEpic-Stencil.otf);
+	font-style: normal;
+	font-weight: 200;
+  }
+
+  h4{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 30px;
+  }
+
+  h5{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+  }
+
+  h6{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+  }
+
+  h7{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+  }
+
+  p2{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 100px;
+  }
+  
+  h1{
+	font-family: SouthEpic;
+	font-weight: 200;
+	color: white;
+	font-size: 120px;
+	text-align: center;
+	padding-top: 40px;
+  }
+  
+  @font-face {
+	font-family: SouthEpic;
+	src: url(fonts/SouthEpic-Decorative.otf);
+	font-style: normal;
+	font-weight: 300;
+  }
+  
+  h2{
+	font-family: RevxNeue;
+	font-weight: 200;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 250px;
+  }
+  
+  h3{
+	font-family: SouthEpic;
+	font-weight: 300;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin: 30px;
+  }
+  
+  header{
+	background-image: url(images/BG.png);
+	height: 1560px;
+	background-size: cover;
+	background-position: center;
+  }
+  
+  .main{
+	  text-align: center;
+  }
+  
+  .main ul{
+	text-align: center;
+  }
+  
+  .main ul li {
+	  text-align: center;
+	  display: inline-block;
+	  padding-right: 50px;
+	  padding-left: 60px;
+	  padding-top: 20px;
+  }
+  
+  .main ul li a {
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .main ul li a:hover {
+	color: gray;
+  }
+
+  .logo main{
+	  display: inline-block;
+  }
+  
+  .logo {
+	padding-top: 0px;
+	text-align: center;
+	
+  }
+  
+  .name{
+	position: absolute;
+	left: 50%;
+	top: 500px;
+	content: none;
+	margin-left: -500px;
+	margin-right: 500px;
+  }
+  
+  .footer{
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+	list-style: none;
+	text-align: center;
+  }
+  
+  .footer a{
+	padding-right: 30px;
+  }
+  
+  .YoutubeVideo {
+	position: relative;
+	text-align: center;
+	padding-top: 0px;
+  }
+  
+  .text-center {
+	text-align: center;
+  }
+  
+.container {
+	padding-top: 0px;
+	text-align: center;
+  }
+
+  .Location {
+	padding-top: 50px;
+	text-align: center;
+  }
+  
+  .container img {
+	margin-right: 0px;
+  }
+  
+  @media (max-width: 151px) {
+	.container {
+		padding: 5px;
+	}
+  
+	.container img {
+	  margin: auto;
+	}
+  }
+
+  .History{
+	padding: 0;
+	text-align: center;
+  }
+
+  .History .container{
+	  padding: 20px;
+	  display: inline-block;
+  }
+
+  .container span{
+	  font-size: 12px;
+  }
+
+  .Interests .Like{
+	padding: 20px;
+	display: inline-table;
+}
+
+.Interests {
+	padding-top: 0px;
+	text-align: center;
+  }
+  
+  .Interests img {
+	margin-right: 0px;
+  }
+  
+  @media (max-width: 151px) {
+	.Interests {
+		padding: 5px;
+	}
+  
+	.Interests img {
+	  margin: auto;
+	}
+  }
