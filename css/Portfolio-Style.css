@@ -5,48 +5,18 @@
   
   @font-face {
 	font-family: RevxNeue;
-	src: url(fonts/RevxNeueBold.ttf);
+	src: url(../fonts/RevxNeueBold.ttf);
 	font-style: normal;
 	font-weight: 100;
   }
 
   @font-face {
 	font-family: RevxNeue;
-	src: url(fonts/RevxNeueRegular.ttf);
+	src: url(../fonts/RevxNeueRegular.ttf);
 	font-style: normal;
 	font-weight: 200;
   }
 
-  @font-face {
-	font-family: SouthEpic;
-	src: url(fonts/SouthEpic-Script.otf);
-	font-style: normal;
-	font-weight: 100;
-  }
-  
-  h2{
-	font-family: SouthEpic;
-	font-weight: 100;
-	color: white;
-	font-size: 50px;
-	text-align: center;
-  }
-
-  @font-face {
-	font-family: SouthEpic;
-	src: url(fonts/SouthEpic-Stencil.otf);
-	font-style: normal;
-	font-weight: 200;
-  }
-
-  p{
-	font-family: SouthEpic;
-	font-weight: 200;
-	color: white;
-	font-size: 80px;
-	text-align: center;
-	padding-top: 20px;
-  }
   
   .main ul li{
 	font-family: RevxNeue;
@@ -57,7 +27,7 @@
   }
   
   header{
-	background-image: url(images/BG.png);
+	background-image: url(../images/BG.png);
 	height: 1560px;
 	background-size: cover;
 	background-position: center;
@@ -115,10 +85,54 @@
   }
   
 .wrapper-gallery{
-	margin: 0 20vw;
+	margin: 0 10vw;
 }
 
 .wrapper-main {
 	margin: 0 20vw;
 }
 
+@media only screen and (max-width:700px){
+
+	header{
+		width: 100%;
+		margin: 0 auto;
+		background-image: url(../images/BG-Mobile.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	  }
+
+	  .logo {
+		padding-top: 0px;
+		text-align: center;
+	  }
+	
+	  .main{
+		text-align: center;
+	  }
+	  
+	  .main ul{
+	  text-align: center;
+	  }
+	  
+	  .main ul li {
+		text-align: center;
+		display: inline-block;
+		padding-right: 20px;
+		padding-left: 30px;
+		padding-top: 20px;
+	  }
+	  
+	  .main ul li a {
+	  color: white;
+	  font-size: 20px;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  display: block;
+	  }
+	  
+	  .main ul li a:hover {
+	  color: gray;
+	  }
+}
