@@ -287,7 +287,7 @@ header {
   }
   
   .home {
-	width: 100vw;
+	width: 100%;
 	height: calc(100vh + 100%);
 	display: block;
 	margin: 0 auto;
@@ -491,7 +491,7 @@ header {
   #stars:after {
 	content: '';
 	position: absolute;
-	top: 2000px;
+	top: 1560px;
 	width: 1px;
 	height: 1px;
 	background: transparent;
@@ -735,7 +735,7 @@ header {
   #star2:after {
 	content: '';
 	position: absolute;
-	top: 2000px;
+	top: 1560px;
 	width: 2px;
 	height: 2px;
 	background: transparent;
@@ -828,7 +828,7 @@ header {
   #star3:after {
 	content: '';
 	position: absolute;
-	top: 2000px;
+	top: 1560px;
 	width: 5px;
 	height: 5px;
 	background: transparent;
@@ -866,7 +866,7 @@ header {
 	  transform: translateY(0px);
 	}
 	to {
-	  transform: translateY(-2000px);
+	  transform: translateY(-1560px);
 	}
   }
 

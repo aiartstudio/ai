@@ -53,7 +53,7 @@ h1{
   color: white;
   font-size: 160px;
   text-align: center;
-  padding-top: 0px;
+  padding-top: 300px;
 }
 
 @font-face {
@@ -170,7 +170,6 @@ text-align: center;
 section {
   width: 100%;
   padding: 0 0;
-  height: 100%;
   position: relative;
 }
 
@@ -183,8 +182,7 @@ header {
 }
 
 .home {
-  width: 100vw;
-  height: calc(100vh + 100%);
+  width: 100%;
   display: block;
   margin: 0 auto;
   background-image: url(../images/Image.png);
@@ -192,12 +190,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   height: 1560px;
-}
-
-#particles-js {
-  position: relative;
-  width: 800px;
-  height: 300px;
 }
 
 .Interests {
@@ -406,7 +398,7 @@ header {
 #stars:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 1560px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -650,7 +642,7 @@ header {
 #star2:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 1560px;
   width: 2px;
   height: 2px;
   background: transparent;
@@ -743,7 +735,7 @@ header {
 #star3:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 1560px;
   width: 5px;
   height: 5px;
   background: transparent;
@@ -781,7 +773,7 @@ header {
     transform: translateY(0px);
   }
   to {
-    transform: translateY(-2000px);
+    transform: translateY(-1560px);
   }
 }
 
