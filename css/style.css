@@ -53,7 +53,7 @@ h1{
   color: white;
   font-size: 160px;
   text-align: center;
-  padding-top: 300px;
+  padding-top: 0px;
 }
 
 @font-face {
@@ -81,17 +81,9 @@ h3{
   margin: 30px;
 }
 
-header{
-  width: 100vw;
-  height: calc(100vh + 100%);
-  display: block;
-  margin: 0 auto;
-  background-image: url(../images/Image.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 1560px;
-  overflow: hidden;
+.Video {
+  position: fixed;
+  z-index: -1;
 }
 
 .main{
@@ -174,6 +166,39 @@ text-align: center;
 	display: inline-table;
 }
 
+section {
+  width: 100%;
+  padding: 0 0;
+  height: 100%;
+  position: relative;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.home {
+  width: 100vw;
+  height: calc(100vh + 100%);
+  display: block;
+  margin: 0 auto;
+  background-image: url(../images/Image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1560px;
+}
+
+#particles-js {
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
 .Interests {
 	padding-top: 0px;
 	text-align: center;
@@ -191,12 +216,12 @@ text-align: center;
 	.Interests img {
 	  margin: auto;
 	}
-  }
+}
 
 
 @media only screen and (max-width:700px) {
 
-  header{
+  .home{
     width: 100%;
     margin: 0 auto;
     background-image: url(../images/Image-Mobile.png);
@@ -244,7 +269,7 @@ text-align: center;
     color: white;
     font-size: 65px;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 50px;
   }
 
   p{
@@ -284,6 +309,13 @@ text-align: center;
   .footer a{
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  #particles-js {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 300px;
   }
 
   .Interests .Like{
