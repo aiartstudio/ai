@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/magnific.css">
     <title>Ali Imam</title>
 </head>
 <body>
@@ -34,34 +35,12 @@
 
         <div class="YoutubeVideo">
           <iframe src="https://www.youtube.com/embed/tzc_7AdSV_8"></iframe>
-        </div>  
-        
-        <h2>#ai.artstudio</h2>
-        <div class="Interests">
+        </div>
 
-            <div class="Like">
-              <img src="images/Post-1.jpg" alt="Avatar" style="width: 150px">
-            </div>
+        <h2 style="text-align: center">AI.ARTSTUDIO</h2>
+    	  <div id="instafeed-container" class="gallery"></div>
 
-            <div class="Like">
-                <img src="images/Post-2.jpg" alt="Avatar" style="width: 150px">
-              </div>
-
-              <div class="Like">
-                <img src="images/Post-3.jpg" alt="Avatar" style="width: 150px">
-              </div>
-
-              <div class="Like">
-                <img src="images/Post-4.jpg" alt="Avatar" style="width: 150px">
-              </div>
-
-              <div class="Like">
-                <img src="images/Post-5.jpg" alt="Avatar" style="width: 150px">
-              </div>
-
-         </div>
-
-         <div class="footer">
+        <div class="footer">
           <a href="tel:9650133705"><img src="images/Call-Icon.png" alt="#"></a>
           <a href="mailto:imam30114@gmail.com"><img src="images/Mail-Icon.png" alt="#"></a>
           <a href="https://www.instagram.com/ai.artstudio/"><img src="images/Insta-Icon.png" alt="#"></a>
@@ -69,5 +48,22 @@
       </div>
     </section>
     </header>
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	  <script>
+	  var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    limit: 6,
+    resolution: 'low_resolution',
+		accessToken: 'IGQVJVLXEwNXFSTDJLM1FJbUo5SFZAUSjNXYWFqUExBd24yNngxM3dEN0o3bGhzUkJ5aldFYjAxYV9sRzV0NUU0ZA0VMUUFkU1BXYkYtQXhuQW1abjJBbjhIUEtyRVg3MExCa0NJNEExSkZAUaFBXb3hEcwZDZD',
+    sortBy: 'most-recent',
+    template: '<div class="col-lg-2 gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+	  });
+  	userFeed.run();
+	  </script>
+    <script src="js/magnific.min.js"></script>
+    <script src="js/custom.js"></script>
+
 </body>
 </html>

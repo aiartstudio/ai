@@ -192,6 +192,16 @@ header {
   height: 1560px;
 }
 
+.gallery{
+  width: 100%;
+  display: initial;
+}
+
+.instaimg img{
+  width: 12%;
+  margin: 10px;
+}
+
 .Interests {
 	padding-top: 0px;
 	text-align: center;
@@ -787,6 +797,15 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .gallery{
+    width: 100%;
+  }
+  
+  .instaimg img{
+    width: 35%;
+    margin: 10px;
   }
 
   .logo {
