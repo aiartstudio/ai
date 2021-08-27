@@ -197,6 +197,13 @@ header {
   display: initial;
 }
 
+.insta img{
+  width: 150px;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
 .instaimg img{
   width: 12%;
   margin: 10px;
